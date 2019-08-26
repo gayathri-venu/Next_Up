@@ -9,4 +9,4 @@
 - python manage.py migrate
 - python manage.py runserver
 
-If all goes will, within moments you'll get a link in the console, you can also manually type localhost:8000, you'll get a simple boring homepage with login and signup links.
+If all goes will, within moments you'll get a link in the console, go to it, or you can also manually type localhost:8000, you'll get a simple boring homepage with login and signup links.
