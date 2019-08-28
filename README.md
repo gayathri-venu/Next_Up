@@ -11,7 +11,7 @@
 
 If all goes will, within moments you'll get a link in the console, go to it, or you can also manually type localhost:8000, you'll get a simple boring homepage with login and signup links.
 
-## For Google Single Signon
+### For Google Single Signon
 - get credentials fill up stuff as required, set authorised redirect uri as http://localhost:8000/accounts/google/login/callback/ and click download client id.
 - Go to localhost:8000/admin -> sites -> change domain name to 127.0.0.1 -> go back -> go to soacial applications in socialaccounts -> add Gmail, client id, secret key, add 127.0.0.1 and save.
 - Go to home.html, add {% loadsocialaccount %}, add link <a href={% provider_login_url 'google' %}>Sign in with Google</a>
