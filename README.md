@@ -7,9 +7,10 @@
 
 - python manage.py makemigrations (if it doesnt work, delete all the pycache folders and retry)
 - python manage.py migrate
+- python manage.py createsuperuser (create a username, valid emailid and a password)
 - python manage.py runserver
 
-If all goes will, within moments you'll get a link in the console, go to it, or you can also manually type localhost:8000, you'll get a simple boring homepage with login and signup links.
+If all goes will, within moments you'll get a link in the console, go to it, or you can also manually type localhost:8000, you'll get a simple boring homepage with login and signup links. Then if you go to localhost:8000/admin you can login with the username and password that you created and get a django-admin page. 
 
 ### For Google Single Signon
 - get credentials fill up stuff as required, set authorised redirect uri as http://localhost:8000/accounts/google/login/callback/ and click download client id.
